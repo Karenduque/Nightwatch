@@ -9,4 +9,13 @@
        $ npm update
        
        $ npm install chromedriver --save-dev
+       
+       Run tests: 
+      
+       Windows: 
+       $ node_modules\.bin\nightwatch --test features\Search.feature
+       
+       Mac: 
+       $ node node_modules/nightwatch/bin/nightwatch
+
  
