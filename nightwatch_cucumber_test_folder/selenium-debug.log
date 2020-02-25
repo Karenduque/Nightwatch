@@ -1,0 +1,247 @@
+10:25:20.366 INFO - Launching a standalone Selenium Server
+10:25:20.391 INFO - Java: Oracle Corporation 25.131-b11
+10:25:20.391 INFO - OS: Windows 10 10.0 amd64
+10:25:20.399 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+10:25:20.435 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:25:20.435 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:25:20.440 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+10:25:20.440 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+10:25:20.440 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+10:25:20.483 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+10:25:20.483 INFO - Selenium Server is up and running
+10:25:20.780 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=D:\KarenCafetoSoftware\NightwatchLocal\PruebasLocal\node_modules\chromedriver\lib\chromedriver\chromedriver.exe, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:25:20.787 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=D:\KarenCafetoSoftware\NightwatchLocal\PruebasLocal\node_modules\chromedriver\lib\chromedriver\chromedriver.exe, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30) on port 14883
+Only local connections are allowed.
+10:25:23.075 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=D:\KarenCafetoSoftware\NightwatchLocal\PruebasLocal\node_modules\chromedriver\lib\chromedriver\chromedriver.exe, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:25:23.084 INFO - Executing: [get: http://prosconnecttest.devcloud.acquia-sites.com/])
+10:25:25.952 INFO - Done: [get: http://prosconnecttest.devcloud.acquia-sites.com/]
+10:25:25.957 INFO - Executing: [set window size])
+10:25:36.015 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'KDUQUE-PC', ip: '192.168.150.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30), userDataDir=C:\Users\aduque\AppData\Local\Temp\scoped_dir15284_16519}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 68433e0f1782be1cf1b0a8666fa11ce9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.setSize(RemoteWebDriver.java:891)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.setSize(EventFiringWebDriver.java:628)
+	at org.openqa.selenium.remote.server.handler.SetWindowSize.call(SetWindowSize.java:53)
+	at org.openqa.selenium.remote.server.handler.SetWindowSize.call(SetWindowSize.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+10:25:36.019 WARN - Exception: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'KDUQUE-PC', ip: '192.168.150.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30), userDataDir=C:\Users\aduque\AppData\Local\Temp\scoped_dir15284_16519}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 68433e0f1782be1cf1b0a8666fa11ce9
+10:25:36.033 INFO - Executing: [refresh])
+10:25:36.837 INFO - Done: [refresh]
+10:25:36.846 INFO - Executing: [find element: By.cssSelector: button[id=top-login-button]])
+10:25:36.875 INFO - Done: [find element: By.cssSelector: button[id=top-login-button]]
+10:25:36.879 INFO - Executing: [click: 0 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> css selector: button[id=top-login-button]]])
+10:25:36.934 INFO - Done: [click: 0 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> css selector: button[id=top-login-button]]]
+10:25:41.955 INFO - Executing: [find elements: By.xpath: //*[@id="user-name"]])
+10:25:41.974 INFO - Done: [find elements: By.xpath: //*[@id="user-name"]]
+10:25:41.984 INFO - Executing: [find element: By.xpath: //*[@id="user-name"]])
+10:25:42.000 INFO - Done: [find element: By.xpath: //*[@id="user-name"]]
+10:25:42.004 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="user-name"]], [c, o, n, n, e, c, t, a, d, m, i, n, @, p, r, o, s, ., c, o, m]])
+10:25:42.085 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="user-name"]], [c, o, n, n, e, c, t, a, d, m, i, n, @, p, r, o, s, ., c, o, m]]
+10:25:42.089 INFO - Executing: [find elements: By.xpath: //*[@id="user-pass"]])
+10:25:42.107 INFO - Done: [find elements: By.xpath: //*[@id="user-pass"]]
+10:25:42.111 INFO - Executing: [find element: By.xpath: //*[@id="user-pass"]])
+10:25:42.127 INFO - Done: [find element: By.xpath: //*[@id="user-pass"]]
+10:25:42.132 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="user-pass"]], [T, 3, @, m, C, 0, n, n, 3, c, t]])
+10:25:42.183 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="user-pass"]], [T, 3, @, m, C, 0, n, n, 3, c, t]]
+10:25:42.190 INFO - Executing: [find element: By.xpath: //*[@id="user-submit"]])
+10:25:42.207 INFO - Done: [find element: By.xpath: //*[@id="user-submit"]]
+10:25:42.211 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="user-submit"]]])
+10:25:47.591 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="user-submit"]]]
+10:25:52.642 INFO - Executing: [find element: By.xpath: //*[@id="admin-menu-menu"]/li[3]/a])
+10:25:52.688 INFO - Done: [find element: By.xpath: //*[@id="admin-menu-menu"]/li[3]/a]
+10:25:52.692 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="admin-menu-menu"]/li[3]/a]])
+10:25:52.744 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="admin-menu-menu"]/li[3]/a]]
+10:25:57.752 INFO - Executing: [get: http://prosconnecttest.devcloud.acquia-sites.com//node/add])
+10:25:58.679 INFO - Done: [get: http://prosconnecttest.devcloud.acquia-sites.com//node/add]
+10:25:58.684 INFO - Executing: [find element: By.xpath: //*[@id="block-system-main"]/div/ul/li[24]/span/a])
+10:25:58.705 INFO - Done: [find element: By.xpath: //*[@id="block-system-main"]/div/ul/li[24]/span/a]
+10:25:58.708 INFO - Executing: [click: 5 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="block-system-main"]/div/ul/li[24]/span/a]])
+10:26:00.583 INFO - Done: [click: 5 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="block-system-main"]/div/ul/li[24]/span/a]]
+10:26:05.627 INFO - Executing: [find elements: By.xpath: //*[@id="edit-title"]])
+10:26:05.659 INFO - Done: [find elements: By.xpath: //*[@id="edit-title"]]
+10:26:05.661 INFO - Executing: [find element: By.xpath: //*[@id="edit-title"]])
+10:26:05.680 INFO - Done: [find element: By.xpath: //*[@id="edit-title"]]
+10:26:05.684 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-title"]], [T, h, e,  , r, e, l, e, a, s, e, s,  , p, u, b, l, i, s, h, e, d,  , h, a, s,  , P, r, o, d, u, c, t, i, o, n,  , R, e, l, e, a, s, e,  , d, a, t, e,  , i, n,  , t, h, e,  , T, e, s, t, i, n, g,  , p, e, r, i, o, d]])
+10:26:06.072 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-title"]], [T, h, e,  , r, e, l, e, a, s, e, s,  , p, u, b, l, i, s, h, e, d,  , h, a, s,  , P, r, o, d, u, c, t, i, o, n,  , R, e, l, e, a, s, e,  , d, a, t, e,  , i, n,  , t, h, e,  , T, e, s, t, i, n, g,  , p, e, r, i, o, d]]
+10:26:06.076 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]])
+10:26:06.095 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]]
+10:26:06.098 INFO - Executing: [is selected: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]]])
+10:26:06.110 INFO - Done: [is selected: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]]]
+10:26:06.113 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]])
+10:26:06.131 INFO - Done: [find element: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]]
+10:26:06.133 INFO - Executing: [click: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]]])
+10:26:06.179 INFO - Done: [click: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]]]
+10:26:06.186 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]])
+10:26:06.200 INFO - Done: [find element: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]]
+10:26:06.203 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]]])
+10:26:06.221 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]]]
+10:26:06.225 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]])
+10:26:06.238 INFO - Done: [find element: By.xpath: //*[@id="edit-field-product-und-0-9161-9161"]]
+10:26:06.242 INFO - Executing: [get element attribute: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]], value])
+10:26:06.250 INFO - Done: [get element attribute: 7 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-product-und-0-9161-9161"]], value]
+10:26:06.254 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-available-premise-customer-und"]])
+10:26:06.272 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-available-premise-customer-und"]]
+10:26:06.276 INFO - Executing: [is selected: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]]])
+10:26:06.289 INFO - Done: [is selected: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]]]
+10:26:06.294 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-available-premise-customer-und"]])
+10:26:06.312 INFO - Done: [find element: By.xpath: //*[@id="edit-field-available-premise-customer-und"]]
+10:26:06.315 INFO - Executing: [click: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]]])
+10:26:06.352 INFO - Done: [click: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]]]
+10:26:06.355 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-available-premise-customer-und"]])
+10:26:06.366 INFO - Done: [find element: By.xpath: //*[@id="edit-field-available-premise-customer-und"]]
+10:26:06.368 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]]])
+10:26:06.383 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]]]
+10:26:06.387 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-available-premise-customer-und"]])
+10:26:06.395 INFO - Done: [find element: By.xpath: //*[@id="edit-field-available-premise-customer-und"]]
+10:26:06.397 INFO - Executing: [get element attribute: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]], value])
+10:26:06.403 INFO - Done: [get element attribute: 8 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-available-premise-customer-und"]], value]
+10:26:06.405 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-managed-package-update-und"]])
+10:26:06.425 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-managed-package-update-und"]]
+10:26:06.428 INFO - Executing: [is selected: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]]])
+10:26:06.439 INFO - Done: [is selected: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]]]
+10:26:06.441 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-managed-package-update-und"]])
+10:26:06.459 INFO - Done: [find element: By.xpath: //*[@id="edit-field-managed-package-update-und"]]
+10:26:06.461 INFO - Executing: [click: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]]])
+10:26:06.499 INFO - Done: [click: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]]]
+10:26:06.501 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-managed-package-update-und"]])
+10:26:06.512 INFO - Done: [find element: By.xpath: //*[@id="edit-field-managed-package-update-und"]]
+10:26:06.514 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]]])
+10:26:06.530 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]]]
+10:26:06.533 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-managed-package-update-und"]])
+10:26:06.544 INFO - Done: [find element: By.xpath: //*[@id="edit-field-managed-package-update-und"]]
+10:26:06.547 INFO - Executing: [get element attribute: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]], value])
+10:26:06.554 INFO - Done: [get element attribute: 9 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-managed-package-update-und"]], value]
+10:26:06.558 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-key-features-und-0-value"]])
+10:26:06.577 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-key-features-und-0-value"]]
+10:26:06.579 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-key-features-und-0-value"]])
+10:26:06.596 INFO - Done: [find element: By.xpath: //*[@id="edit-field-key-features-und-0-value"]]
+10:26:06.599 INFO - Executing: [send keys: 10 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-key-features-und-0-value"]], [t, e, s, t, i, n, g]])
+10:26:06.664 INFO - Done: [send keys: 10 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-key-features-und-0-value"]], [t, e, s, t, i, n, g]]
+10:26:06.667 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-resolved-issues-und-0-value"]])
+10:26:06.686 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-resolved-issues-und-0-value"]]
+10:26:06.689 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-resolved-issues-und-0-value"]])
+10:26:06.707 INFO - Done: [find element: By.xpath: //*[@id="edit-field-resolved-issues-und-0-value"]]
+10:26:06.710 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-resolved-issues-und-0-value"]], [t, e, s, t]])
+10:26:06.757 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-resolved-issues-und-0-value"]], [t, e, s, t]]
+10:26:06.760 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]])
+10:26:06.786 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]]
+10:26:06.789 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]])
+10:26:06.805 INFO - Done: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]]
+10:26:06.808 INFO - Executing: [clear: 12 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]]])
+10:26:06.834 INFO - Done: [clear: 12 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]]]
+10:26:06.837 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]])
+10:26:06.848 INFO - Done: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]]
+10:26:06.851 INFO - Executing: [send keys: 12 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]], [0, 5, /, 2, 0, /, 2, 0, 1, 7]])
+10:26:06.971 INFO - Done: [send keys: 12 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value-datepicker-popup-0"]], [0, 5, /, 2, 0, /, 2, 0, 1, 7]]
+10:26:06.975 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]])
+10:26:06.996 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]]
+10:26:06.998 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]])
+10:26:07.017 INFO - Done: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]]
+10:26:07.020 INFO - Executing: [clear: 13 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]]])
+10:26:07.040 INFO - Done: [clear: 13 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]]]
+10:26:07.043 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]])
+10:26:07.054 INFO - Done: [find element: By.xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]]
+10:26:07.056 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]], [0, 5, /, 2, 2, /, 2, 0, 1, 7]])
+10:26:07.165 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-testing-period-und-0-value2-datepicker-popup-0"]], [0, 5, /, 2, 2, /, 2, 0, 1, 7]]
+10:26:07.167 INFO - Executing: [find elements: By.xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]])
+10:26:07.184 INFO - Done: [find elements: By.xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]]
+10:26:07.188 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]])
+10:26:07.206 INFO - Done: [find element: By.xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]]
+10:26:07.208 INFO - Executing: [clear: 14 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]]])
+10:26:07.229 INFO - Done: [clear: 14 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]]]
+10:26:07.232 INFO - Executing: [find element: By.xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]])
+10:26:07.246 INFO - Done: [find element: By.xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]]
+10:26:07.250 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]], [0, 5, /, 2, 1, /, 2, 0, 1, 7]])
+10:26:07.347 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-field-production-release-date-und-0-value-datepicker-popup-0"]], [0, 5, /, 2, 1, /, 2, 0, 1, 7]]
+10:26:14.360 INFO - Executing: [find element: By.xpath: //*[@id="upcoming-release-node-form"]/div/div[10]/ul/li[6]])
+10:26:14.397 INFO - Done: [find element: By.xpath: //*[@id="upcoming-release-node-form"]/div/div[10]/ul/li[6]]
+10:26:14.399 INFO - Executing: [click: 15 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="upcoming-release-node-form"]/div/div[10]/ul/li[6]]])
+10:26:14.447 INFO - Done: [click: 15 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="upcoming-release-node-form"]/div/div[10]/ul/li[6]]]
+10:26:15.454 INFO - Executing: [find element: By.xpath: //*[@id="edit-workbench-moderation-state-new--2"]])
+10:26:15.480 INFO - Done: [find element: By.xpath: //*[@id="edit-workbench-moderation-state-new--2"]]
+10:26:15.482 INFO - Executing: [click: 16 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-workbench-moderation-state-new--2"]]])
+10:26:15.540 INFO - Done: [click: 16 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-workbench-moderation-state-new--2"]]]
+10:26:16.547 INFO - Executing: [find element: By.xpath: //*[@id="edit-workbench-moderation-state-new--2"]/option[5]])
+10:26:16.593 INFO - Done: [find element: By.xpath: //*[@id="edit-workbench-moderation-state-new--2"]/option[5]]
+10:26:16.596 INFO - Executing: [click: 17 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-workbench-moderation-state-new--2"]/option[5]]])
+10:26:16.630 INFO - Done: [click: 17 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-workbench-moderation-state-new--2"]/option[5]]]
+10:26:17.635 INFO - Executing: [find element: By.xpath: //*[@id="edit-save-edit"]])
+10:26:17.657 INFO - Done: [find element: By.xpath: //*[@id="edit-save-edit"]]
+10:26:17.659 INFO - Executing: [click: 18 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-save-edit"]]])
+10:26:18.842 INFO - Done: [click: 18 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> xpath: //*[@id="edit-save-edit"]]]
+10:26:18.848 INFO - Executing: [switch to frame: 2])
+10:26:18.856 WARN - Exception thrown
+org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'KDUQUE-PC', ip: '192.168.150.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30), userDataDir=C:\Users\aduque\AppData\Local\Temp\scoped_dir15284_16519}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 68433e0f1782be1cf1b0a8666fa11ce9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:984)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:587)
+	at org.openqa.selenium.remote.server.handler.SwitchToFrame.call(SwitchToFrame.java:48)
+	at org.openqa.selenium.remote.server.handler.SwitchToFrame.call(SwitchToFrame.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+10:26:18.856 WARN - Exception: no such frame
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'KDUQUE-PC', ip: '192.168.150.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30), userDataDir=C:\Users\aduque\AppData\Local\Temp\scoped_dir15284_16519}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 68433e0f1782be1cf1b0a8666fa11ce9
+10:26:18.867 INFO - Executing: [find elements: By.cssSelector: div[id=content]])
+10:26:18.892 INFO - Done: [find elements: By.cssSelector: div[id=content]]
+10:26:18.896 INFO - Executing: [find element: By.cssSelector: div[id=content]])
+10:26:18.921 INFO - Done: [find element: By.cssSelector: div[id=content]]
+10:26:18.923 INFO - Executing: [get text: 19 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> css selector: div[id=content]]])
+10:26:19.071 INFO - Done: [get text: 19 [[ChromeDriver: chrome on XP (68433e0f1782be1cf1b0a8666fa11ce9)] -> css selector: div[id=content]]]
+10:26:24.079 INFO - Executing: [get: http://prosconnecttest.devcloud.acquia-sites.com//user/logout])
+10:26:25.518 INFO - Done: [get: http://prosconnecttest.devcloud.acquia-sites.com//user/logout]
+10:26:25.563 INFO - Executing: [delete session: 4471bfaf-05e0-48e7-bdc4-3c285f12d7fe])
+10:26:26.397 INFO - Done: [delete session: 4471bfaf-05e0-48e7-bdc4-3c285f12d7fe]

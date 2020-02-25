@@ -1,0 +1,196 @@
+[
+  {
+    "elements": [
+      {
+        "id": "functionalities-upcoming-releases;as-admin,-i-can-not-created-a-upcoming-releases-with-production-release-date-in-the-testing-period",
+        "keyword": "Scenario",
+        "line": 375,
+        "name": "As Admin, I can not created a Upcoming releases with Production Release date in the Testing period",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am in PROS Connect page",
+            "result": {
+              "status": "passed",
+              "duration": 16171976800
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"Login\" button",
+            "result": {
+              "status": "passed",
+              "duration": 5094753241
+            },
+            "line": 376,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I fill login form with Email Address \"connectadmin@pros.com\" and Password \"T3@mC0nn3ct\"",
+            "result": {
+              "status": "passed",
+              "duration": 244962720
+            },
+            "line": 377,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Sign In\" button",
+            "result": {
+              "status": "passed",
+              "duration": 10437948230
+            },
+            "line": 378,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click \"Content\" link",
+            "result": {
+              "status": "passed",
+              "duration": 5111513504
+            },
+            "line": 379,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Add content\" button",
+            "result": {
+              "status": "passed",
+              "duration": 930538903
+            },
+            "line": 380,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click \"Upcoming Release\" link",
+            "result": {
+              "status": "passed",
+              "duration": 6903183406
+            },
+            "line": 381,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I fill Upcoming Release form with Production Release date in the Testing period and Title \"The releases published has Production Release date in the Testing period\", Key features \"testing\", Resolved issues \"test\", Testing Period: Date, ToDate, Production Release Date, Tags \"taks\" and I select the Available premise customers, Managed package update and Product CPQ",
+            "result": {
+              "status": "passed",
+              "duration": 8758159332
+            },
+            "line": 382,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:727"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click Publishing Options tab",
+            "result": {
+              "status": "passed",
+              "duration": 1093503966
+            },
+            "line": 383,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:269"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select Moderation State = Published",
+            "result": {
+              "status": "passed",
+              "duration": 2179904808
+            },
+            "line": 384,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:287"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Save\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1209476974
+            },
+            "line": 385,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see a message Production Release Date should be greater than testing period final date.",
+            "result": {
+              "status": "passed",
+              "duration": 5228899343
+            },
+            "line": 386,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:1028"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Logout\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1443504264
+            },
+            "line": 387,
+            "match": {
+              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Adminpreconditions6",
+            "line": 374
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "functionalities-upcoming-releases",
+    "keyword": "Feature",
+    "line": 11,
+    "name": "Functionalities Upcoming Releases",
+    "tags": [],
+    "uri": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\UpcommingReleases.feature"
+  }
+]
