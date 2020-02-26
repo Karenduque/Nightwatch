@@ -1,196 +1,147 @@
 [
   {
+    "description": " Feature: Search",
     "elements": [
       {
-        "id": "functionalities-upcoming-releases;as-admin,-i-can-not-created-a-upcoming-releases-with-production-release-date-in-the-testing-period",
+        "id": "search;i-need-search-about-automation",
         "keyword": "Scenario",
-        "line": 375,
-        "name": "As Admin, I can not created a Upcoming releases with Production Release date in the Testing period",
+        "line": 18,
+        "name": "I need search about automation",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "I am in PROS Connect page",
+            "name": "I am in Google page",
             "result": {
               "status": "passed",
-              "duration": 16171976800
+              "duration": 6050131252
             },
-            "line": 14,
+            "line": 9,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:20"
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:11"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the \"Login\" button",
+            "name": "I fill the \"Search\" field with \"Cucumber\"",
             "result": {
               "status": "passed",
-              "duration": 5094753241
+              "duration": 2160279908
             },
-            "line": 376,
+            "line": 13,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:18"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I fill login form with Email Address \"connectadmin@pros.com\" and Password \"T3@mC0nn3ct\"",
+            "name": "I click the \"Buscar con Google\" button",
             "result": {
               "status": "passed",
-              "duration": 244962720
+              "duration": 11417192519
             },
-            "line": 377,
+            "line": 14,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:79"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Sign In\" button",
-            "result": {
-              "status": "passed",
-              "duration": 10437948230
-            },
-            "line": 378,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click \"Content\" link",
-            "result": {
-              "status": "passed",
-              "duration": 5111513504
-            },
-            "line": 379,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:89"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Add content\" button",
-            "result": {
-              "status": "passed",
-              "duration": 930538903
-            },
-            "line": 380,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click \"Upcoming Release\" link",
-            "result": {
-              "status": "passed",
-              "duration": 6903183406
-            },
-            "line": 381,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:89"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I fill Upcoming Release form with Production Release date in the Testing period and Title \"The releases published has Production Release date in the Testing period\", Key features \"testing\", Resolved issues \"test\", Testing Period: Date, ToDate, Production Release Date, Tags \"taks\" and I select the Available premise customers, Managed package update and Product CPQ",
-            "result": {
-              "status": "passed",
-              "duration": 8758159332
-            },
-            "line": 382,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:727"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click Publishing Options tab",
-            "result": {
-              "status": "passed",
-              "duration": 1093503966
-            },
-            "line": 383,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:269"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select Moderation State = Published",
-            "result": {
-              "status": "passed",
-              "duration": 2179904808
-            },
-            "line": 384,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:287"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Save\" button",
-            "result": {
-              "status": "passed",
-              "duration": 1209476974
-            },
-            "line": 385,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:28"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see a message Production Release Date should be greater than testing period final date.",
+            "name": "I see the results related to \"Cucumber\"",
             "result": {
               "status": "passed",
-              "duration": 5228899343
+              "duration": 390651192
             },
-            "line": 386,
+            "line": 15,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:1028"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Logout\" button",
-            "result": {
-              "status": "passed",
-              "duration": 1443504264
-            },
-            "line": 387,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:38"
             }
           }
         ],
         "tags": [
           {
-            "name": "@Adminpreconditions6",
-            "line": 374
+            "name": "@Test1",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "search;i-need-search-about-automation",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "I need search about automation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am in Google page",
+            "result": {
+              "status": "passed",
+              "duration": 1316704025
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill the \"Search\" field with \"Nightwatch\"",
+            "result": {
+              "status": "passed",
+              "duration": 2123429102
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Buscar con Google\" button",
+            "result": {
+              "status": "passed",
+              "duration": 6172426252
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see the results related to \"Nightwatch\"",
+            "result": {
+              "status": "passed",
+              "duration": 262441700
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/step_definitions/test_simple/Search.js:38"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 11
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "functionalities-upcoming-releases",
+    "id": "search",
     "keyword": "Feature",
-    "line": 11,
-    "name": "Functionalities Upcoming Releases",
+    "line": 4,
+    "name": "Search",
     "tags": [],
-    "uri": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\UpcommingReleases.feature"
+    "uri": "/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/features/test_simple/Search.feature"
   }
 ]

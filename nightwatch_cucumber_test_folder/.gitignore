@@ -1,0 +1,11 @@
+.Ds_Store
+.idea
+.gradle
+build/
+reports/
+node_modules/
+connect-at.iml
+screenshots
+debug.log
+selenium-debug.log
+package-lock.json
