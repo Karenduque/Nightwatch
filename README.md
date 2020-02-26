@@ -9,7 +9,9 @@
        $ npm update
        
        $ npm install chromedriver --save-dev 
+       
        or 
+       
        $ npm install chromedriver
 
        
