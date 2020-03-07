@@ -1,130 +1,97 @@
-17:24:55.235 INFO - Launching a standalone Selenium Server
-17:24:55.264 INFO - Java: Oracle Corporation 12.0.1+12
-17:24:55.264 INFO - OS: Mac OS X 10.15.3 x86_64
-17:24:55.274 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
-17:24:55.327 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+10:38:50.198 INFO - Launching a standalone Selenium Server
+10:38:50.250 INFO - Java: Oracle Corporation 12.0.1+12
+10:38:50.250 INFO - OS: Mac OS X 10.15.3 x86_64
+10:38:50.267 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+10:38:50.360 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-17:24:55.328 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+10:38:50.361 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-17:24:55.328 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:24:55.328 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:24:55.329 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-17:24:55.330 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-17:24:55.379 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-17:24:55.379 INFO - Selenium Server is up and running
-17:24:55.623 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/node_modules/chromedriver/lib/chromedriver/chromedriver, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-17:24:55.637 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/node_modules/chromedriver/lib/chromedriver/chromedriver, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 1719
+10:38:50.361 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:38:50.361 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:38:50.363 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+10:38:50.364 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+10:38:50.433 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+10:38:50.433 INFO - Selenium Server is up and running
+10:38:50.871 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/node_modules/chromedriver/lib/chromedriver/chromedriver, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:38:50.883 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/node_modules/chromedriver/lib/chromedriver/chromedriver, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 10603
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-17:24:57.022 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/node_modules/chromedriver/lib/chromedriver/chromedriver, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-17:24:57.040 INFO - Executing: [get: https://www.google.com.co/])
-[1582755899.828][SEVERE]: Timed out receiving message from renderer: 0.100
-17:24:59.879 INFO - Done: [get: https://www.google.com.co/]
-17:24:59.885 INFO - Executing: [set window size])
-17:24:59.999 INFO - Done: [set window size]
-17:25:00.004 INFO - Executing: [refresh])
-[1582755900.649][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755900.802][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755900.904][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755901.006][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755901.107][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755901.211][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755901.312][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755901.413][SEVERE]: Timed out receiving message from renderer: 0.100
-17:25:01.497 INFO - Done: [refresh]
-17:25:01.510 INFO - Executing: [find elements: By.cssSelector: input[class="gLFyf gsfi"]])
-17:25:01.542 INFO - Done: [find elements: By.cssSelector: input[class="gLFyf gsfi"]]
-17:25:01.549 INFO - Executing: [find element: By.cssSelector: input[class="gLFyf gsfi"]])
-17:25:01.560 INFO - Done: [find element: By.cssSelector: input[class="gLFyf gsfi"]]
-17:25:01.565 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: input[class="gLFyf gsfi"]], [C, u, c, u, m, b, e, r]])
-17:25:01.654 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: input[class="gLFyf gsfi"]], [C, u, c, u, m, b, e, r]]
-17:25:03.668 INFO - Executing: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]])
-17:25:03.684 INFO - Done: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]
-17:25:03.688 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]])
-[1582755904.155][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.287][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.388][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.505][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.610][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.711][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.812][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755904.914][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.017][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.124][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.226][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.327][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.428][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.530][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.632][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.735][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755905.924][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.027][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.263][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.365][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.466][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.568][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.670][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.775][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755906.878][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.090][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.208][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.311][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.414][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.516][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.617][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.719][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.821][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755907.923][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.025][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.127][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.230][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.331][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.433][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.536][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.638][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.743][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.844][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755908.946][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.048][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.150][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.252][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.354][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.455][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.556][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.668][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.770][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.871][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755909.973][SEVERE]: Timed out receiving message from renderer: 0.100
-17:25:10.073 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]]
-17:25:15.088 INFO - Executing: [find element: By.cssSelector: #rcnt])
-17:25:15.102 INFO - Done: [find element: By.cssSelector: #rcnt]
-17:25:15.107 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: #rcnt]])
-17:25:15.467 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: #rcnt]]
-17:25:15.481 INFO - Executing: [get: https://www.google.com.co/])
-[1582755915.947][SEVERE]: Timed out receiving message from renderer: 0.100
-17:25:16.035 INFO - Done: [get: https://www.google.com.co/]
-17:25:16.040 INFO - Executing: [set window size])
-17:25:16.147 INFO - Done: [set window size]
-17:25:16.152 INFO - Executing: [refresh])
-[1582755916.602][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755916.771][SEVERE]: Timed out receiving message from renderer: 0.100
-17:25:16.788 INFO - Done: [refresh]
-17:25:16.795 INFO - Executing: [find elements: By.cssSelector: input[class="gLFyf gsfi"]])
-17:25:16.810 INFO - Done: [find elements: By.cssSelector: input[class="gLFyf gsfi"]]
-17:25:16.815 INFO - Executing: [find element: By.cssSelector: input[class="gLFyf gsfi"]])
-17:25:16.829 INFO - Done: [find element: By.cssSelector: input[class="gLFyf gsfi"]]
-17:25:16.836 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: input[class="gLFyf gsfi"]], [N, i, g, h, t, w, a, t, c, h]])
-17:25:16.907 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: input[class="gLFyf gsfi"]], [N, i, g, h, t, w, a, t, c, h]]
-17:25:18.920 INFO - Executing: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]])
-17:25:18.937 INFO - Done: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]
-17:25:18.941 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]])
-[1582755919.613][SEVERE]: Timed out receiving message from renderer: 0.100
-[1582755919.928][SEVERE]: Timed out receiving message from renderer: 0.100
-17:25:20.083 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]]
-17:25:25.093 INFO - Executing: [find element: By.cssSelector: #rcnt])
-17:25:25.108 INFO - Done: [find element: By.cssSelector: #rcnt]
-17:25:25.112 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: #rcnt]])
-17:25:25.349 INFO - Done: [get text: 5 [[ChromeDriver: chrome on MAC (ec7d46e35efe1d10e0d6dec6a69f1047)] -> css selector: #rcnt]]
-17:25:25.367 INFO - Executing: [delete session: 68f49a7f-03e7-4628-86e4-92fb358e901d])
-17:25:25.492 INFO - Done: [delete session: 68f49a7f-03e7-4628-86e4-92fb358e901d]
+10:38:52.289 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, webdriver.chrome.driver=/Users/karenalexandraduquesolarte/NightwatchJS/Nightwatch/nightwatch_cucumber_test_folder/node_modules/chromedriver/lib/chromedriver/chromedriver, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:38:52.311 INFO - Executing: [get: https://www.google.com.co/])
+[1582990733.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990733.363][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990733.659][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990733.761][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990733.863][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990733.965][SEVERE]: Timed out receiving message from renderer: 0.100
+10:38:54.035 INFO - Done: [get: https://www.google.com.co/]
+10:38:54.043 INFO - Executing: [set window size])
+10:38:54.165 INFO - Done: [set window size]
+10:38:54.170 INFO - Executing: [refresh])
+[1582990734.748][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990734.892][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990734.994][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.097][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.403][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.607][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990735.709][SEVERE]: Timed out receiving message from renderer: 0.100
+10:38:55.723 INFO - Done: [refresh]
+10:38:55.740 INFO - Executing: [find elements: By.cssSelector: input[class="gLFyf gsfi"]])
+10:38:55.769 INFO - Done: [find elements: By.cssSelector: input[class="gLFyf gsfi"]]
+10:38:55.775 INFO - Executing: [find element: By.cssSelector: input[class="gLFyf gsfi"]])
+10:38:55.789 INFO - Done: [find element: By.cssSelector: input[class="gLFyf gsfi"]]
+10:38:55.794 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: input[class="gLFyf gsfi"]], [C, u, c, u, m, b, e, r]])
+10:38:55.897 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: input[class="gLFyf gsfi"]], [C, u, c, u, m, b, e, r]]
+10:38:57.915 INFO - Executing: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]])
+10:38:57.932 INFO - Done: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]
+10:38:57.937 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]])
+[1582990738.414][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990738.540][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990738.642][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990738.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990738.931][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990739.140][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990739.241][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990739.508][SEVERE]: Timed out receiving message from renderer: 0.100
+10:38:59.615 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]]
+10:39:04.623 INFO - Executing: [find element: By.cssSelector: #rcnt])
+10:39:04.637 INFO - Done: [find element: By.cssSelector: #rcnt]
+10:39:04.640 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: #rcnt]])
+10:39:05.006 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: #rcnt]]
+10:39:05.016 INFO - Executing: [get: https://www.google.com.co/])
+[1582990745.525][SEVERE]: Timed out receiving message from renderer: 0.100
+10:39:05.537 INFO - Done: [get: https://www.google.com.co/]
+10:39:05.542 INFO - Executing: [set window size])
+10:39:05.648 INFO - Done: [set window size]
+10:39:05.653 INFO - Executing: [refresh])
+[1582990746.094][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990746.308][SEVERE]: Timed out receiving message from renderer: 0.100
+10:39:06.388 INFO - Done: [refresh]
+10:39:06.394 INFO - Executing: [find elements: By.cssSelector: input[class="gLFyf gsfi"]])
+10:39:06.405 INFO - Done: [find elements: By.cssSelector: input[class="gLFyf gsfi"]]
+10:39:06.410 INFO - Executing: [find element: By.cssSelector: input[class="gLFyf gsfi"]])
+10:39:06.421 INFO - Done: [find element: By.cssSelector: input[class="gLFyf gsfi"]]
+10:39:06.427 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: input[class="gLFyf gsfi"]], [N, i, g, h, t, w, a, t, c, h]])
+10:39:06.497 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: input[class="gLFyf gsfi"]], [N, i, g, h, t, w, a, t, c, h]]
+10:39:08.505 INFO - Executing: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]])
+10:39:08.522 INFO - Done: [find element: By.xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]
+10:39:08.525 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]])
+[1582990748.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990748.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990749.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990749.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990749.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990749.659][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990749.760][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582990749.865][SEVERE]: Timed out receiving message from renderer: 0.100
+10:39:09.987 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> xpath: //*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]]]
+10:39:14.998 INFO - Executing: [find element: By.cssSelector: #rcnt])
+10:39:15.012 INFO - Done: [find element: By.cssSelector: #rcnt]
+10:39:15.015 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: #rcnt]])
+10:39:15.280 INFO - Done: [get text: 5 [[ChromeDriver: chrome on MAC (50e70ac357b37a2236f105c9b9fc6507)] -> css selector: #rcnt]]
+10:39:15.293 INFO - Executing: [delete session: 96fa2bd4-7a0c-4d0c-950b-59c0b701cbba])
+10:39:15.413 INFO - Done: [delete session: 96fa2bd4-7a0c-4d0c-950b-59c0b701cbba]

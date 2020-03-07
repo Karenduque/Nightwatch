@@ -14,7 +14,7 @@
             "name": "I am in Google page",
             "result": {
               "status": "passed",
-              "duration": 6050131252
+              "duration": 5089682917
             },
             "line": 9,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I fill the \"Search\" field with \"Cucumber\"",
             "result": {
               "status": "passed",
-              "duration": 2160279908
+              "duration": 2169771214
             },
             "line": 13,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I click the \"Buscar con Google\" button",
             "result": {
               "status": "passed",
-              "duration": 11417192519
+              "duration": 6706748493
             },
             "line": 14,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I see the results related to \"Cucumber\"",
             "result": {
               "status": "passed",
-              "duration": 390651192
+              "duration": 390806860
             },
             "line": 15,
             "match": {
@@ -81,7 +81,7 @@
             "name": "I am in Google page",
             "result": {
               "status": "passed",
-              "duration": 1316704025
+              "duration": 1378067969
             },
             "line": 9,
             "match": {
@@ -94,7 +94,7 @@
             "name": "I fill the \"Search\" field with \"Nightwatch\"",
             "result": {
               "status": "passed",
-              "duration": 2123429102
+              "duration": 2108637738
             },
             "line": 13,
             "match": {
@@ -107,7 +107,7 @@
             "name": "I click the \"Buscar con Google\" button",
             "result": {
               "status": "passed",
-              "duration": 6172426252
+              "duration": 6492165760
             },
             "line": 14,
             "match": {
@@ -120,7 +120,7 @@
             "name": "I see the results related to \"Nightwatch\"",
             "result": {
               "status": "passed",
-              "duration": 262441700
+              "duration": 288186097
             },
             "line": 15,
             "match": {
