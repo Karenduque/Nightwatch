@@ -1,196 +1,143 @@
 [
   {
+    "description": " Feature: Search",
     "elements": [
       {
-        "id": "functionalities-upcoming-releases;as-admin,-i-can-not-created-a-upcoming-releases-with-production-release-date-in-the-testing-period",
+        "id": "search;i-need-search-about-automation",
         "keyword": "Scenario",
-        "line": 375,
-        "name": "As Admin, I can not created a Upcoming releases with Production Release date in the Testing period",
+        "line": 25,
+        "name": "I need search about automation",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "I am in PROS Connect page",
+            "name": "I am in Google page",
             "result": {
-              "status": "passed",
-              "duration": 16171976800
+              "status": "failed",
+              "duration": 2895289982,
+              "error_message": "{\n  message: 'Connection refused! Is selenium server started?\\n',\n  data: {\n    sessionId: null,\n    state: 'session not created',\n    hCode: 292060874,\n    value: {\n      additionalInformation: '\\nDriver info: org.openqa.selenium.chrome.ChromeDriver',\n      localizedMessage: 'session not created: This version of ChromeDriver only supports Chrome version 88\\n' +\n        'Current browser version is 102.0.5005.115 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\\n' +\n        '  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Mac OS X 11.6.0 x86_64) (WARNING: The server did not provide any stacktrace information)\\n' +\n        'Command duration or timeout: 2.22 seconds\\n' +\n        \"Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'\\n\" +\n        \"System info: host: 'CO-C02F233EMD6M', ip: '192.168.1.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'\\n\" +\n        'Driver info: org.openqa.selenium.chrome.ChromeDriver',\n      supportUrl: null,\n      systemInformation: \"System info: host: 'CO-C02F233EMD6M', ip: '192.168.1.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'\",\n      cause: null,\n      suppressed: [],\n      message: 'session not created: This version of ChromeDriver only supports Chrome version 88\\n' +\n        'Current browser version is 102.0.5005.115 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\\n' +\n        '  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Mac OS X 11.6.0 x86_64) (WARNING: The server did not provide any stacktrace information)\\n' +\n        'Command duration or timeout: 2.22 seconds\\n' +\n        \"Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'\\n\" +\n        \"System info: host: 'CO-C02F233EMD6M', ip: '192.168.1.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'\\n\" +\n        'Driver info: org.openqa.selenium.chrome.ChromeDriver',\n      hCode: 1367214019,\n      class: 'org.openqa.selenium.SessionNotCreatedException',\n      buildInformation: [Object],\n      screen: null\n    },\n    class: 'org.openqa.selenium.remote.Response',\n    status: 33\n  }\n}"
             },
-            "line": 14,
+            "line": 16,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:20"
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:11"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the \"Login\" button",
+            "name": "I fill the \"Search\" field with \"Cucumber\"",
             "result": {
-              "status": "passed",
-              "duration": 5094753241
+              "status": "skipped"
             },
-            "line": 376,
+            "line": 20,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:18"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I fill login form with Email Address \"connectadmin@pros.com\" and Password \"T3@mC0nn3ct\"",
+            "name": "I click the \"Buscar con Google\" button",
             "result": {
-              "status": "passed",
-              "duration": 244962720
+              "status": "skipped"
             },
-            "line": 377,
+            "line": 21,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:79"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Sign In\" button",
-            "result": {
-              "status": "passed",
-              "duration": 10437948230
-            },
-            "line": 378,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click \"Content\" link",
-            "result": {
-              "status": "passed",
-              "duration": 5111513504
-            },
-            "line": 379,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:89"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Add content\" button",
-            "result": {
-              "status": "passed",
-              "duration": 930538903
-            },
-            "line": 380,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click \"Upcoming Release\" link",
-            "result": {
-              "status": "passed",
-              "duration": 6903183406
-            },
-            "line": 381,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:89"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I fill Upcoming Release form with Production Release date in the Testing period and Title \"The releases published has Production Release date in the Testing period\", Key features \"testing\", Resolved issues \"test\", Testing Period: Date, ToDate, Production Release Date, Tags \"taks\" and I select the Available premise customers, Managed package update and Product CPQ",
-            "result": {
-              "status": "passed",
-              "duration": 8758159332
-            },
-            "line": 382,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:727"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click Publishing Options tab",
-            "result": {
-              "status": "passed",
-              "duration": 1093503966
-            },
-            "line": 383,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:269"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select Moderation State = Published",
-            "result": {
-              "status": "passed",
-              "duration": 2179904808
-            },
-            "line": 384,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:287"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Save\" button",
-            "result": {
-              "status": "passed",
-              "duration": 1209476974
-            },
-            "line": 385,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:26"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see a message Production Release Date should be greater than testing period final date.",
+            "name": "I see the results related to \"Cucumber\"",
             "result": {
-              "status": "passed",
-              "duration": 5228899343
+              "status": "skipped"
             },
-            "line": 386,
+            "line": 22,
             "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:1028"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click the \"Logout\" button",
-            "result": {
-              "status": "passed",
-              "duration": 1443504264
-            },
-            "line": 387,
-            "match": {
-              "location": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\step_definitions\\StepsUpcomingReleases.js:28"
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:36"
             }
           }
         ],
         "tags": [
           {
-            "name": "@Adminpreconditions6",
-            "line": 374
+            "name": "@Test1",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "search;i-need-search-about-automation",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "I need search about automation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am in Google page",
+            "result": {
+              "status": "failed",
+              "duration": 3149274,
+              "error_message": "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object\n    at Object.writeFile (node:fs:1484:5)\n    at /Users/kduque/Desktop/KarenGit/Nightwatch/node_modules/nightwatch/lib/index.js:434:10\n    at /Users/kduque/Desktop/KarenGit/Nightwatch/node_modules/mkpath/mkpath.js:25:33\n    at FSReqCallback.oncomplete (node:fs:186:23)"
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill the \"Search\" field with \"Nightwatch\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Buscar con Google\" button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see the results related to \"Nightwatch\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/step_definitions/Search.js:36"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 18
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "functionalities-upcoming-releases",
+    "id": "search",
     "keyword": "Feature",
     "line": 11,
-    "name": "Functionalities Upcoming Releases",
+    "name": "Search",
     "tags": [],
-    "uri": "D:\\KarenCafetoSoftware\\NightwatchLocal\\PruebasLocal\\features\\UpcommingReleases.feature"
+    "uri": "/Users/kduque/Desktop/KarenGit/Nightwatch/features/Search.feature"
   }
 ]
